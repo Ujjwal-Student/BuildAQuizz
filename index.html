@@ -1,0 +1,39 @@
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="grid">
+        <div id="quiz">
+            <h1 id="score1">Quiz </h1>
+            <hr style="margin-bottom: 20px">
+ 
+            <h3 id="question">What is 2+2?</h3>
+ 
+            <form>
+    <div class="radio" >
+      <label id="lab1"><input type="radio" name="optradio" id="rad1" value="1">1</label>
+    </div>
+    <div class="radio">
+      <label id="lab2"><input type="radio" name="optradio" id="rad2" value="2">2</label>
+    </div>
+    <div class="radio disabled">
+      <label id="lab3"><input type="radio" name="optradio" id="rad3" value="3">3</label>
+    </div>
+     <div class="radio">
+      <label id="lab4"><input type="radio" name="optradio" id="rad4" value="4">4</label>
+    </div>
+  </form >
+        <div id="nob"></div>
+           <button id="btn1" onclick="checkAnswer()">Submit</button> 
+        </div>
+         
+    </div>
+ 
+ 
+<script src="question.js"></script>
+ 
+</body>
+</html>
